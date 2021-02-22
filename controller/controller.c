@@ -189,7 +189,7 @@ int sss_deregister() {
 
   // fill registration message
   msg.dev_id = SCEWL_ID;
-  msg.op = SCEWL_SSS_DEREG;
+  msg.op = SCEWL_SSS_DEREG;asdf
   
   // send registration
   status = send_msg(SSS_INTF, SCEWL_ID, SCEWL_SSS_ID, sizeof(msg), (char *)&msg);
